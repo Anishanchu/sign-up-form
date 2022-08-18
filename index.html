@@ -23,30 +23,40 @@
                 <div class="logo1">RAMAN</div>
             </div>
             <div class="contant02">
-                <div class="quote">“Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.” — Steve Jobs</div>
-                <form action="#"  method="post">
-                    <p>Let's do this</p>
+                <div class="quote">Success is the result of perfection, hard work, learning from failure, loyalty, and persistence.<br>Sign up now to get started.<br><br><br>You know you want to.</div>
+                <form action="#" class="form" method="get">
                     <div>
-                        <label for="first_name">First Name:</label>
-                        <input type="text" name="first_name" id="first_name">
+                        <label for="first_name">FIRST NAME:</label>
+                        <input type="text" name="first_name" id="first_name" required>
                     </div>
                     <div>
-                        <label for="last_name">Last Name:</label>
-                        <input type="text" name="last_name" id="last_name">
+                        <label for="last_name">LAST NAME:</label>
+                        <input type="text" name="last_name" id="last_name" required>
                     </div>
                     <div>
-                        <label for="user_email">Email Address:</label>
-                        <input type="email" id="user_email" name="email" placeholder="raman@ginja.com">
+                        <label for="user_email">EMAIL ADDRESS:</label>
+                        <input type="email" id="user_email" name="email" placeholder="raman@ginja.com" required>
                     </div>
                     <div>
-                        <label for="tel_number">Telephone Number</label>
-                        <input type="tel" id="tel_number" name="tel" placeholder="0751350784">
+                        <label for="tel_number">PHONE NUMBER</label>
+                        <input type="tel" id="tel_number" name="tel" placeholder="0751350784" required>
                     </div>
-
+                    <div>
+                        <label for="user_password">PASSWORD</label>
+                        <input type="password" id="user_password" name="user_password" minlength="5" maxlength="16" required>
+                    </div>
+                    <div>
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm_password" name="confirm_password" minlength="5" maxlength="16" required>
+                    </div>
+                    <div>
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href=" ">Log in</a></p>
+                    </div>
                 </form>
             </div>
         </div>
-        <div class="footer">odin project</div>
+        <div class="footer">Odin Project</div>
     </div>
 </body>
 </html>
